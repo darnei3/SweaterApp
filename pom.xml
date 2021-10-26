@@ -60,7 +60,15 @@
             <version>6.0.7.Final</version>
         </dependency>
 
-       <dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.eirslett/frontend-plugin-core -->
+        <dependency>
+            <groupId>com.github.eirslett</groupId>
+            <artifactId>frontend-plugin-core</artifactId>
+            <version>1.12.0</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-jdbc</artifactId>
         </dependency>
